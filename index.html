@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="">
+    <title>@calvinw.96 - 71231035 - Personal Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <center><h1>Welcome to my Personal Web Page</h1></center>
+    </header>
+    <section id="foto">
+        <img src="fotoku.jpg" alt="fotoku" style="width: 320px;" >
+    </section>
+    <section id="tentang-saya">
+        <p>Nama saya Christian Calvin Wijaya.</p>
+        <p>Akun instagram saya adalah @calvinw.96</p>
+        <p>Asak saya dari kota Makassar, provinsi Sulawesi Selatan, dan dari negara Indonesia.</p>
+    </section>
+    <section id="keterampilan">
+        <p class="judul">Skillset pemrograman yang saya kuasasi:</p>
+        <ul>Javascript</ul>
+        <ul>Python</ul>
+        <ul>C++</ul>
+        <ul>HTML, CSS</ul>
+    </section>
+    
+    <button id="tombolGantiWarna">Ganti Warna Random</button>
+
+    <footer>
+        <center>COPYRIGHT 2023</center>
+    </footer>
+
+    <script>
+        const bodyElement = document.body;
+
+        function gantiWarnaRandom() {
+            const warnaList = ["#F56565", "#48BB78", "#4299E1", "#E8EAEC"]
+            const randomIndex = Math.floor(Math.random() * warnaList.length);
+            const warnaRandom = warnaList[randomIndex];
+            bodyElement.style.backgroundColor = warnaRandom;
+        }
+
+        const tombolGantiWarna = document.querySelector('#tombolGantiWarna')
+        tombolGantiWarna.addEventListener('click', function(){
+            gantiWarnaRandom()
+        })
+    </script>
+</body>
+</html>

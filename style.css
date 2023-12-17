@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    margin: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+#tentang-saya{
+    padding: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#tombolGantiWarna{
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+}
+.judul{
+    font-weight: bold;
+    
+}body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    margin: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+#tentang-saya{
+    padding: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#tombolGantiWarna{
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+}
+.judul{
+    font-weight: bold;
+}
